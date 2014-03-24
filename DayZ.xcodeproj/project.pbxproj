@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F3D04B18BAE08F001E6C46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F3D04A18BAE08F001E6C46 /* UIKit.framework */; };
+		C7F3D04D18BAE08F001E6C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F3D04C18BAE08F001E6C46 /* Foundation.framework */; };
+		C7F3D04F18BAE08F001E6C46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F3D04E18BAE08F001E6C46 /* CoreGraphics.framework */; };
+		C7F3D05518BAE08F001E6C46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7F3D05318BAE08F001E6C46 /* InfoPlist.strings */; };
+		C7F3D05718BAE08F001E6C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3D05618BAE08F001E6C46 /* main.m */; };
+		C7F3D05B18BAE08F001E6C46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3D05A18BAE08F001E6C46 /* AppDelegate.m */; };
+		C7F3D05D18BAE08F001E6C46 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F3D05C18BAE08F001E6C46 /* Default.png */; };
+		C7F3D05F18BAE08F001E6C46 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F3D05E18BAE08F001E6C46 /* Default@2x.png */; };
+		C7F3D06118BAE08F001E6C46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F3D06018BAE08F001E6C46 /* Default-568h@2x.png */; };
+		C7F3D06418BAE08F001E6C46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F3D06318BAE08F001E6C46 /* ViewController.m */; };
+		C7F3D06718BAE08F001E6C46 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F3D06518BAE08F001E6C46 /* ViewController.xib */; };
+		C7F3D06F18BAE0A6001E6C46 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7F3D06D18BAE0A6001E6C46 /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7F3D04618BAE08F001E6C46 /* DayZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F3D04A18BAE08F001E6C46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7F3D04C18BAE08F001E6C46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7F3D04E18BAE08F001E6C46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7F3D05218BAE08F001E6C46 /* DayZ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DayZ-Info.plist"; sourceTree = "<group>"; };
+		C7F3D05418BAE08F001E6C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7F3D05618BAE08F001E6C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7F3D05818BAE08F001E6C46 /* DayZ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayZ-Prefix.pch"; sourceTree = "<group>"; };
+		C7F3D05918BAE08F001E6C46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7F3D05A18BAE08F001E6C46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7F3D05C18BAE08F001E6C46 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C7F3D05E18BAE08F001E6C46 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C7F3D06018BAE08F001E6C46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C7F3D06218BAE08F001E6C46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7F3D06318BAE08F001E6C46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7F3D06618BAE08F001E6C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C7F3D06E18BAE0A6001E6C46 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F3D04318BAE08F001E6C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3D04B18BAE08F001E6C46 /* UIKit.framework in Frameworks */,
+				C7F3D04D18BAE08F001E6C46 /* Foundation.framework in Frameworks */,
+				C7F3D04F18BAE08F001E6C46 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F3D03B18BAE08F001E6C46 = {
+			isa = PBXGroup;
+			children = (
+				C7F3D05018BAE08F001E6C46 /* DayZ */,
+				C7F3D04918BAE08F001E6C46 /* Frameworks */,
+				C7F3D04718BAE08F001E6C46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F3D04718BAE08F001E6C46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3D04618BAE08F001E6C46 /* DayZ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F3D04918BAE08F001E6C46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3D04A18BAE08F001E6C46 /* UIKit.framework */,
+				C7F3D04C18BAE08F001E6C46 /* Foundation.framework */,
+				C7F3D04E18BAE08F001E6C46 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F3D05018BAE08F001E6C46 /* DayZ */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3D05918BAE08F001E6C46 /* AppDelegate.h */,
+				C7F3D05A18BAE08F001E6C46 /* AppDelegate.m */,
+				C7F3D06218BAE08F001E6C46 /* ViewController.h */,
+				C7F3D06318BAE08F001E6C46 /* ViewController.m */,
+				C7F3D06518BAE08F001E6C46 /* ViewController.xib */,
+				C7F3D05118BAE08F001E6C46 /* Supporting Files */,
+				C7F3D06D18BAE0A6001E6C46 /* Model.xcdatamodeld */,
+			);
+			path = DayZ;
+			sourceTree = "<group>";
+		};
+		C7F3D05118BAE08F001E6C46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3D05218BAE08F001E6C46 /* DayZ-Info.plist */,
+				C7F3D05318BAE08F001E6C46 /* InfoPlist.strings */,
+				C7F3D05618BAE08F001E6C46 /* main.m */,
+				C7F3D05818BAE08F001E6C46 /* DayZ-Prefix.pch */,
+				C7F3D05C18BAE08F001E6C46 /* Default.png */,
+				C7F3D05E18BAE08F001E6C46 /* Default@2x.png */,
+				C7F3D06018BAE08F001E6C46 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F3D04518BAE08F001E6C46 /* DayZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F3D06A18BAE08F001E6C46 /* Build configuration list for PBXNativeTarget "DayZ" */;
+			buildPhases = (
+				C7F3D04218BAE08F001E6C46 /* Sources */,
+				C7F3D04318BAE08F001E6C46 /* Frameworks */,
+				C7F3D04418BAE08F001E6C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayZ;
+			productName = DayZ;
+			productReference = C7F3D04618BAE08F001E6C46 /* DayZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F3D03D18BAE08F001E6C46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Scott Luxenberg";
+			};
+			buildConfigurationList = C7F3D04018BAE08F001E6C46 /* Build configuration list for PBXProject "DayZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7F3D03B18BAE08F001E6C46;
+			productRefGroup = C7F3D04718BAE08F001E6C46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F3D04518BAE08F001E6C46 /* DayZ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7F3D04418BAE08F001E6C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3D05518BAE08F001E6C46 /* InfoPlist.strings in Resources */,
+				C7F3D05D18BAE08F001E6C46 /* Default.png in Resources */,
+				C7F3D05F18BAE08F001E6C46 /* Default@2x.png in Resources */,
+				C7F3D06118BAE08F001E6C46 /* Default-568h@2x.png in Resources */,
+				C7F3D06718BAE08F001E6C46 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F3D04218BAE08F001E6C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3D05718BAE08F001E6C46 /* main.m in Sources */,
+				C7F3D05B18BAE08F001E6C46 /* AppDelegate.m in Sources */,
+				C7F3D06418BAE08F001E6C46 /* ViewController.m in Sources */,
+				C7F3D06F18BAE0A6001E6C46 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7F3D05318BAE08F001E6C46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F3D05418BAE08F001E6C46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7F3D06518BAE08F001E6C46 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F3D06618BAE08F001E6C46 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7F3D06818BAE08F001E6C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7F3D06918BAE08F001E6C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7F3D06B18BAE08F001E6C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayZ/DayZ-Prefix.pch";
+				INFOPLIST_FILE = "DayZ/DayZ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7F3D06C18BAE08F001E6C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DayZ/DayZ-Prefix.pch";
+				INFOPLIST_FILE = "DayZ/DayZ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F3D04018BAE08F001E6C46 /* Build configuration list for PBXProject "DayZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F3D06818BAE08F001E6C46 /* Debug */,
+				C7F3D06918BAE08F001E6C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F3D06A18BAE08F001E6C46 /* Build configuration list for PBXNativeTarget "DayZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F3D06B18BAE08F001E6C46 /* Debug */,
+				C7F3D06C18BAE08F001E6C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7F3D06D18BAE0A6001E6C46 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7F3D06E18BAE0A6001E6C46 /* Model.xcdatamodel */,
+			);
+			currentVersion = C7F3D06E18BAE0A6001E6C46 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7F3D03D18BAE08F001E6C46 /* Project object */;
+}

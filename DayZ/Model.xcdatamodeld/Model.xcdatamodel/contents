@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Item" syncable="YES">
+        <attribute name="columnSize" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="holdsItems" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inventoryColumn" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="inventoryRow" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemWear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rowSize" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="variantType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="containedBy" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="containsItems" inverseEntity="Item" syncable="YES"/>
+        <relationship name="containsItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="containedBy" inverseEntity="Item" syncable="YES"/>
+        <relationship name="locationsFound" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Location" inverseName="itemsContained" inverseEntity="Location" syncable="YES"/>
+        <relationship name="ownedBy" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="inventory" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="Location" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xGrid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="yGrid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="itemsContained" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="locationsFound" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="inventory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="ownedBy" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-207" positionY="-630" width="128" height="90"/>
+        <element name="Item" positionX="27" positionY="-648" width="128" height="270"/>
+        <element name="Location" positionX="243" positionY="-672" width="128" height="105"/>
+    </elements>
+</model>
