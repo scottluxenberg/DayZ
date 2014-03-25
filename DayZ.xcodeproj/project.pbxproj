@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74E829318E0F929007AB646 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74E829218E0F929007AB646 /* CoreData.framework */; };
 		C7F3D04B18BAE08F001E6C46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F3D04A18BAE08F001E6C46 /* UIKit.framework */; };
 		C7F3D04D18BAE08F001E6C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F3D04C18BAE08F001E6C46 /* Foundation.framework */; };
 		C7F3D04F18BAE08F001E6C46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F3D04E18BAE08F001E6C46 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C74E829218E0F929007AB646 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C7F3D04618BAE08F001E6C46 /* DayZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F3D04A18BAE08F001E6C46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7F3D04C18BAE08F001E6C46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74E829318E0F929007AB646 /* CoreData.framework in Frameworks */,
 				C7F3D04B18BAE08F001E6C46 /* UIKit.framework in Frameworks */,
 				C7F3D04D18BAE08F001E6C46 /* Foundation.framework in Frameworks */,
 				C7F3D04F18BAE08F001E6C46 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +61,7 @@
 		C7F3D03B18BAE08F001E6C46 = {
 			isa = PBXGroup;
 			children = (
+				C74E829218E0F929007AB646 /* CoreData.framework */,
 				C7F3D05018BAE08F001E6C46 /* DayZ */,
 				C7F3D04918BAE08F001E6C46 /* Frameworks */,
 				C7F3D04718BAE08F001E6C46 /* Products */,
@@ -294,6 +298,7 @@
 				C7F3D06C18BAE08F001E6C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

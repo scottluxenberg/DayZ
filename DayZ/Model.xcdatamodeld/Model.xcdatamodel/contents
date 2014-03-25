@@ -29,8 +29,8 @@
         <relationship name="inventory" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="ownedBy" inverseEntity="Item" syncable="YES"/>
     </entity>
     <elements>
-        <element name="User" positionX="-207" positionY="-630" width="128" height="90"/>
         <element name="Item" positionX="27" positionY="-648" width="128" height="270"/>
         <element name="Location" positionX="243" positionY="-672" width="128" height="105"/>
+        <element name="User" positionX="-207" positionY="-630" width="128" height="90"/>
     </elements>
 </model>
